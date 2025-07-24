@@ -1,12 +1,12 @@
 :star::star: https://halittalha.github.io/ng-material-extensions/ :star::star:
 
-# Mat Table Extensions - Angular 15+ Fork
+# Mat Table Extensions - Angular 16+ Fork
 
-> **Fork Notice**: This is a fork of [HalitTalha's ng-material-extensions](https://github.com/HalitTalha/ng-material-extensions) with Angular 15+ support. The original project stopped publishing versions after v14. This fork maintains compatibility with modern Angular versions.
+> **Fork Notice**: This is a fork of [HalitTalha's ng-material-extensions](https://github.com/HalitTalha/ng-material-extensions) with Angular 16+ support. The original project stopped publishing versions after v14. This fork maintains compatibility with modern Angular versions.
 
 > **Original Author**: [Halit Talha Türe](https://github.com/HalitTalha) - Licensed under Apache-2.0
 
-This is an angular workspace that currently includes 3 library projects, now compatible with Angular 15+.
+This is an angular workspace that currently includes 3 library projects, now compatible with Angular 16+.
 
 Project | Version | Downloads/Month
 --|--|--

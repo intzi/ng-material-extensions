@@ -1,6 +1,6 @@
 {
   "name": "@intzi1992/cdk-table-exporter",
-  "version": "15.0.0",
+  "version": "16.0.0",
   "description": "Abstract CdkTable Exporter",
   "author": "Halit Talha Türe",
   "license": "Apache-2.0",
@@ -10,9 +10,9 @@
     "url": "https://github.com/intzi/ng-material-extensions/tree/master/projects/cdk-table-exporter"
   },
   "peerDependencies": {
-    "@angular/cdk": "15.2.9",
-    "@angular/common": "15.2.10",
-    "@angular/core": "15.2.10",
+    "@angular/cdk": "16.2.14",
+    "@angular/common": "16.2.12",
+    "@angular/core": "16.2.12",
     "rxjs": "7.8.0"
   },
   "dependencies": {
