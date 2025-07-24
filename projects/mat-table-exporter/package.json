@@ -1,5 +1,5 @@
 {
-  "name": "mat-table-exporter",
+  "name": "@intzi1992/mat-table-exporter",
   "version": "15.0.0",
   "license": "Apache-2.0",
   "description": "Provides exporting support for @angular/material tables",
@@ -17,7 +17,6 @@
     "rxjs": "7.8.0"
   },
   "dependencies": {
-    "cdk-table-exporter": "^15.0.0",
     "tslib": "^2.3.0"
   },
   "sideEffects": false,

@@ -1,5 +1,5 @@
 {
-  "name": "cdk-table-exporter",
+  "name": "@intzi1992/cdk-table-exporter",
   "version": "15.0.0",
   "description": "Abstract CdkTable Exporter",
   "author": "Halit Talha Türe",
