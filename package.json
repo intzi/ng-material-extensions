@@ -2,8 +2,8 @@
   "name": "ng-material-extensions",
   "version": "16.0.0",
   "license": "Apache-2.0",
-      "description": "Extended features for @angular/material components - Fork with Angular 16+ support",
-      "author": "Halit Talha Türe (Original), intzi (Angular 16+ fork)",
+  "description": "Extended features for @angular/material components - Fork with Angular 16+ support",
+  "author": "Halit Talha Türe (Original), intzi (Angular 16+ fork)",
   "repository": {
     "type": "git",
     "url": "https://github.com/intzi/ng-material-extensions"
@@ -18,10 +18,8 @@
     "build-stats": "ng build --stats-json",
     "analyze": "webpack-bundle-analyzer docs/stats.json",
     "postinstall": "npm run install:libs",
-    "install:libs": "npm run install:lib:cdk && npm run install:lib:mat && npm run install:lib:filter",
-    "install:lib:cdk": "cd projects/cdk-table-exporter && npm install --legacy-peer-deps && cd ../../ && npx @angular/cli@16 build cdk-table-exporter",
-    "install:lib:mat": "cd projects/mat-table-exporter && npm install --legacy-peer-deps && cd ../../ && npx @angular/cli@16 build mat-table-exporter",
-    "install:lib:filter": "cd projects/mat-table-filter && npm install --legacy-peer-deps && cd ../../ && npx @angular/cli@16 build mat-table-filter",
+    "install:libs": "npm run install:lib:build",
+    "install:lib:build": "npx @angular/cli@16 build cdk-table-exporter && npx @angular/cli@16 build mat-table-exporter && npx @angular/cli@16 build mat-table-filter",
     "clean:libs": "rm -rf dist/cdk-table-exporter dist/mat-table-exporter dist/mat-table-filter",
     "rebuild:libs": "npm run clean:libs && npm run install:libs"
   },
@@ -45,7 +43,8 @@
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "xlsx": "^0.18.5",
-    "zone.js": "~0.13.3"
+    "zone.js": "~0.13.3",
+    "lodash-es": "^4.17.21"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^16.2.16",
@@ -60,6 +59,7 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.0.0",
     "ng-packagr": "^16.2.3",
-    "typescript": "~4.9.5"
+    "typescript": "~4.9.5",
+    "@types/lodash-es": "^4.17.6"
   }
 }
