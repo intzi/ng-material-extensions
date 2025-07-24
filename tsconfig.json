@@ -1,0 +1,64 @@
+/* To learn more about this file see: https://angular.io/config/tsconfig. */
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "cdk-table-exporter": [
+        "dist/cdk-table-exporter"
+      ],
+      "cdk-table-exporter/*": [
+        "dist/cdk-table-exporter/*"
+      ],
+      "mat-table-exporter": [
+        "dist/mat-table-exporter"
+      ],
+      "mat-table-exporter/*": [
+        "dist/mat-table-exporter/*"
+      ],
+      "mat-table-filter": [
+        "dist/mat-table-filter"
+      ],
+      "mat-table-filter/*": [
+        "dist/mat-table-filter/*"
+      ],
+      "example-components": [
+        "dist/example-components"
+      ],
+      "example-components/*": [
+        "dist/example-components/*"
+      ]
+    },
+    "typeRoots": [
+      "./typings",
+      "node_modules/@types"
+    ],
+    "strictPropertyInitialization": false,
+    "outDir": "./dist/out-tsc",
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "sourceMap": true,
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "target": "ES2022",
+    "module": "ES2022",
+    "useDefineForClassFields": false,
+    "lib": [
+      "ES2022",
+      "dom"
+    ]
+  },
+  "angularCompilerOptions": {
+    "enableI18nLegacyMessageIdFormat": false,
+    "strictInjectionParameters": true,
+    "strictInputAccessModifiers": true,
+    "strictTemplates": true
+  }
+}

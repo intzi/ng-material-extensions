@@ -1,0 +1,39 @@
+{
+  "name": "mat-table-filter",
+  "license": "Apache-2.0",
+  "author": "Halit Talha Türe",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/intzi/ng-material-extensions/tree/master/projects/mat-table-filter"
+  },
+  "version": "15.0.0",
+  "description": "Provides filtering support for @angular/material tables",
+  "homepage": "https://halittalha.github.io/ng-material-extensions/",
+  "peerDependencies": {
+    "@angular/cdk": "15.2.9",
+    "@angular/material": "15.2.9",
+    "@angular/common": "15.2.10",
+    "@angular/core": "15.2.10",
+    "rxjs": "7.8.0"
+  },
+  "dependencies": {
+    "lodash-es": "^4.17.21",
+    "tslib": "^2.3.0"
+  },
+  "devDependencies": {
+    "@types/lodash-es": "^4.17.6"
+  },
+  "sideEffects": false,
+  "keywords": [
+    "angular",
+    "material",
+    "filter",
+    "mat-table",
+    "mattable",
+    "table",
+    "example",
+    "debounce",
+    "directive",
+    "nested"
+  ]
+}

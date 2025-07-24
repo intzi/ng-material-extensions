@@ -1,0 +1,20 @@
+/* To learn more about this file see: https://angular.io/config/tsconfig. */
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../../out-tsc/lib",
+    "declaration": true,
+    "declarationMap": true,
+    "inlineSources": true,
+    "types": ["node"],
+    "noImplicitAny": false
+  },
+  "exclude": [
+    "**/*.spec.ts"
+  ],
+  "paths": {
+    "file-saver-es": [
+      "node_modules/file-saver-es"
+    ]
+  }
+}
