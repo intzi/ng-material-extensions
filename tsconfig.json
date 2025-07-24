@@ -4,28 +4,28 @@
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
-      "cdk-table-exporter": [
+      "@intzi1992/cdk-table-exporter": [
         "dist/cdk-table-exporter"
       ],
-      "cdk-table-exporter/*": [
+      "@intzi1992/cdk-table-exporter/*": [
         "dist/cdk-table-exporter/*"
       ],
-      "mat-table-exporter": [
+      "@intzi1992/mat-table-exporter": [
         "dist/mat-table-exporter"
       ],
-      "mat-table-exporter/*": [
+      "@intzi1992/mat-table-exporter/*": [
         "dist/mat-table-exporter/*"
       ],
-      "mat-table-filter": [
+      "@intzi1992/mat-table-filter": [
         "dist/mat-table-filter"
       ],
-      "mat-table-filter/*": [
+      "@intzi1992/mat-table-filter/*": [
         "dist/mat-table-filter/*"
       ],
-      "example-components": [
+      "@intzi1992/example-components": [
         "dist/example-components"
       ],
-      "example-components/*": [
+      "@intzi1992/example-components/*": [
         "dist/example-components/*"
       ]
     },

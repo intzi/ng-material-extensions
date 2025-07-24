@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { AddToShowCase } from '../../add-to-showcase';
 import { MatTableDataSource } from '@angular/material/table';
-import { MatTableFilter, PropertyOptions } from 'mat-table-filter';
+import { MatTableFilter, PropertyOptions } from '@intzi1992/mat-table-filter';
 
 export class Captain {
   name: string;

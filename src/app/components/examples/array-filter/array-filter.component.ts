@@ -1,4 +1,4 @@
-import { MatTableFilter } from 'mat-table-filter';
+import { MatTableFilter } from '@intzi1992/mat-table-filter';
 import { Component, OnInit } from '@angular/core';
 import { AddToShowCase } from '../../add-to-showcase';
 import { MatTableDataSource } from '@angular/material/table';

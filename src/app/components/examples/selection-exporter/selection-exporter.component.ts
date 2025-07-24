@@ -3,7 +3,7 @@ import { AfterViewInit, Component, OnInit, ViewChild } from '@angular/core';
 import { MatPaginator } from '@angular/material/paginator';
 import { MatTableDataSource } from '@angular/material/table';
 import { AddToShowCase } from '../../add-to-showcase';
-import { MatTableExporterDirective } from 'mat-table-exporter';
+import { MatTableExporterDirective } from '@intzi1992/mat-table-exporter';
 
 @Component({
   selector: 'app-selection-exporter',

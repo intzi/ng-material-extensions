@@ -1,6 +1,6 @@
 import { ModuleWithProviders, NgModule } from '@angular/core';
 import { MatTableModule } from '@angular/material/table';
-import { CdkTableExporterModule, XLSX_LIGHTWEIGHT } from 'cdk-table-exporter';
+import { CdkTableExporterModule, XLSX_LIGHTWEIGHT } from '@intzi1992/cdk-table-exporter';
 import { MatTableExporterDirective } from './mat-table-exporter.directive';
 
 export interface ModuleConfiguration {

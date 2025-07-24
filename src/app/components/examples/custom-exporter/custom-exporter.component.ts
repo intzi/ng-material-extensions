@@ -1,7 +1,7 @@
 import { Component, OnInit, ViewChild, AfterViewInit } from '@angular/core';
 import { MatTableDataSource } from '@angular/material/table';
 import { MatPaginator } from '@angular/material/paginator';
-import { Exporter, Options } from 'mat-table-exporter';
+import { Exporter, Options } from '@intzi1992/mat-table-exporter';
 import { AddToShowCase } from '../../add-to-showcase';
 
 export class CustomExporter implements Exporter<Options> {
