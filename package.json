@@ -1,6 +1,6 @@
 {
   "name": "ng-material-extensions",
-  "version": "16.0.0",
+  "version": "16.0.4",
   "license": "Apache-2.0",
   "description": "Extended features for @angular/material components - Fork with Angular 16+ support",
   "author": "Halit Talha Türe (Original), intzi (Angular 16+ fork)",

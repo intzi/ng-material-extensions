@@ -6,7 +6,7 @@
     "type": "git",
     "url": "https://github.com/intzi/ng-material-extensions/tree/master/projects/mat-table-filter"
   },
-  "version": "16.0.0",
+  "version": "16.0.4",
   "description": "Provides filtering support for @angular/material tables",
   "homepage": "https://halittalha.github.io/ng-material-extensions/",
   "peerDependencies": {
