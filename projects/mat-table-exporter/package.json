@@ -1,6 +1,6 @@
 {
   "name": "@intzi1992/mat-table-exporter",
-  "version": "16.0.4",
+  "version": "17.0.0",
   "license": "Apache-2.0",
   "description": "Provides exporting support for @angular/material tables",
   "author": "Halit Talha Türe",
@@ -10,14 +10,14 @@
     "url": "https://github.com/intzi/ng-material-extensions/tree/master/projects/mat-table-exporter"
   },
   "peerDependencies": {
-    "@angular/cdk": "16.2.14",
-    "@angular/common": "16.2.12",
-    "@angular/core": "16.2.12",
-    "@angular/material": "16.2.14",
+    "@angular/cdk": "17.3.10",
+    "@angular/common": "17.3.12",
+    "@angular/core": "17.3.12",
+    "@angular/material": "17.3.10",
     "rxjs": "7.8.0"
   },
   "dependencies": {
-    "@intzi1992/cdk-table-exporter": "16.0.4",
+    "@intzi1992/cdk-table-exporter": "17.0.0",
     "tslib": "^2.3.0"
   },
   "sideEffects": false,

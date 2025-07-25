@@ -42,8 +42,6 @@ export function markedOptions(): MarkedOptions {
     gfm: true,
     breaks: false,
     pedantic: false,
-    smartLists: true,
-    smartypants: false,
   };
 }
 
@@ -70,7 +68,7 @@ export function markedOptions(): MarkedOptions {
     MarkdownModule.forRoot({
       loader: HttpClient,
       markedOptions: {
-        provide: MarkedOptions,
+        provide: 'markedOptions',
         useFactory: markedOptions,
       },
     }),
